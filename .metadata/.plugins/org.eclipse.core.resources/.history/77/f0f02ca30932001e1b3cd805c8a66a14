@@ -1,0 +1,5 @@
+package com.guilherme.api.controllers;
+
+public class MedicoController {
+
+}

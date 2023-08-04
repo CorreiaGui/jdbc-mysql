@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:myslq://localhost/vollmed_api
+spring.datasource.username=root
+spring.datasource.password=
+

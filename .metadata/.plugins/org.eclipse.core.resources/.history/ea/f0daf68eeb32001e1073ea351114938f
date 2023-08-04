@@ -1,0 +1,21 @@
+package application;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import db.DB;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Connection connn = null;
+
+		Statement st = null; //consulta
+		
+		ResultSet rs = null; //recebe a consulta sql
+		
+		
+	}
+}

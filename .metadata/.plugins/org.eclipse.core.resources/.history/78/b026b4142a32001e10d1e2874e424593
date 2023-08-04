@@ -1,0 +1,26 @@
+package com.guilherme.api.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.guilherme.api.dto.DadosCadastroMedico;
+import com.guilherme.api.entities.Medico;
+import com.guilherme.api.repositories.MedicoRepository;
+
+@RestController
+@RequestMapping("/medicos")
+public class MedicoController {
+
+	@Autowired
+	private MedicoRepository repository;
+
+	@PostMapping
+	public void cadastrar(@RequestBody DadosCadastroMedico dados) {
+
+		DadosCadastroMedico a;
+		dados = (Medico) a;
+	}
+}
